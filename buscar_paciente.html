@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Buscar Paciente</title>
+<link rel="stylesheet" href="buscar_pacientes.css">
+</head>
+<body>
+
+<div class="container">
+        
+      <div class="logo-box">
+    <img src="Logo Medicina Salud Minimalista Corporativo Azul.PNG" alt="logo">
+</div>
+     
+<h2>Buscar paciente</h2>
+
+<form action="buscar_paciente.php" method="POST">
+    <label>Nombre:</label>
+    <input type="text" name="nombre" required>
+
+    <label>Apellido paterno:</label>
+    <input type="text" name="apellido_paterno" required>
+
+     <label>Apellido materno:</label>
+    <input type="text" name="apellido_materno" required>
+
+<button type="submit">Buscar</button>
+
+<!-- Espacio entre botones -->
+<div style="margin-top: 20px;"></div>
+
+<a href="../inicio/pacientes.html">
+    <button type="button" class="btn">regresar</button>
+</a>
+</form>
+</div>
+
+</body>
+</html>
